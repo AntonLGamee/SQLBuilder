@@ -272,7 +272,7 @@ class Conditions implements ToSqlInterface, Countable
         return !empty($this->exprs);
     }
 
-    public function count()
+    public function count(): int
     {
         return count($this->exprs);
     }
