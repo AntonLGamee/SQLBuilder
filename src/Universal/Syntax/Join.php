@@ -18,6 +18,7 @@ class Join implements ToSqlInterface
     public $alias;
 
     protected $joinType;
+    public $table;
 
     public function __construct($table, $alias = null, $joinType = null)
     {
